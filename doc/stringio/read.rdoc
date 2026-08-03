@@ -48,7 +48,7 @@ returns +out_string+:
   strio.read(nil, out_string) # => ""
 
 With non-negative argument +maxlen+ and string argument +out_string+ given,
-reads the +maxlen bytes from the stream, as availble;
+reads the +maxlen bytes from the stream, as available;
 clears +out_string+ and writes the bytes into it;
 returns +out_string+ if any bytes were read, or +nil+ if none:
 
